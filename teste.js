@@ -4,6 +4,15 @@ function tradutor(texto) {
     let mensagem = "";
     for (var i = 0; i < textoarray.length; i++) {
         switch (textoarray[i]) {
+            case "1":
+                mensagem += ".";
+                break;
+            case "11":
+                mensagem += "!";
+                break;
+            case "111":
+                mensagem += "@";
+                break;
             case "2":
                 mensagem += "a";
                 break;
